@@ -1,5 +1,38 @@
 # Changelog
 
+## [2026.8.9](https://github.com/jdx/mise/compare/v2026.8.8..v2026.8.9) - 2026-08-18
+
+### 🚀 Features
+
+- **(bootstrap)** expose resource provenance by @jdx in [#12100](https://github.com/jdx/mise/pull/12100)
+- **(config)** implicitly trust config for execution commands by @jdx in [#12107](https://github.com/jdx/mise/pull/12107)
+
+### 🐛 Bug Fixes
+
+- **(aqua)** prefer glibc assets with musl fallback by @jdx in [#12093](https://github.com/jdx/mise/pull/12093)
+- **(bootstrap)** create missing directory parents by @jdx in [#12096](https://github.com/jdx/mise/pull/12096)
+- **(docs)** route tool search results to mise-versions by @jdx in [#12097](https://github.com/jdx/mise/pull/12097)
+- **(github)** match arm assets on arm64 by @jdx in [#12098](https://github.com/jdx/mise/pull/12098)
+- **(hook-env)** preserve runtime environment overrides by @jdx in [#12094](https://github.com/jdx/mise/pull/12094)
+- **(shell)** branch on the exit code in the pwsh command-not-found hook by @JamBalaya56562 in [#12089](https://github.com/jdx/mise/pull/12089)
+- **(task)** support azure devops cloud ssh urls (remote git sources) by @cheesemans in [#12102](https://github.com/jdx/mise/pull/12102)
+- **(use)** scope global install hooks by @jdx in [#12101](https://github.com/jdx/mise/pull/12101)
+- **(which)** report uninstalled --tool version instead of "not active" by @TrevorBurnham in [#12106](https://github.com/jdx/mise/pull/12106)
+
+### 📚 Documentation
+
+- fix installing mise links by @jdx in [#12104](https://github.com/jdx/mise/pull/12104)
+
+### New Contributors
+
+- @TrevorBurnham made their first contribution in [#12106](https://github.com/jdx/mise/pull/12106)
+
+### 📦 Aqua Registry Updates
+
+#### New Packages (1)
+
+- [`cloudsmith-io/cloudsmith-cli`](https://github.com/cloudsmith-io/cloudsmith-cli)
+
 ## [2026.8.8](https://github.com/jdx/mise/compare/v2026.8.7..v2026.8.8) - 2026-08-17
 
 ### 🐛 Bug Fixes
